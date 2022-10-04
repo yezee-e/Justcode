@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(240, 240, 161);
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.size {
+  width: 800px;
+  box-sizing: border-box;
+}
+.bg-img {
+  width: 800px;
+  height: 500px;
+
+  /* 배경에 적용되는 값들을 한번에 나열할 수 있디 */
+  background: url('./img/bg.png') no-repeat;
+  background-size: cover;
+
+  margin: 0 auto;
+  position: relative;
+}
+
+#hero {
+  width: 35px;
+  height: 54px;
+
+  background-image: url('./img/hero.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+
+#hero.stop {
+  background-position: 0px 0px;
+}
+
+#hero.right {
+  background-position: -105px 0px;
+}
+
+#hero.left {
+  background-position: -70px 0px;
+}
+
+.heart {
+  float: right;
+  margin-top: 10px;
+  display: block;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn-start {
+  width: 70%;
+  height: 30%;
+  font-size: 130%;
+  border: none;
+  font-weight: bolder;
+}
