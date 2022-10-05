@@ -1,0 +1,82 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dfdfdf;
+  background-color: white;
+}
+
+.nav-bar__first {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-weight: 500px;
+}
+
+.nav-bar__second {
+  text-align: center;
+  width: 300px;
+  background-color: #fafafa;
+  padding: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+}
+
+.nav-bar__third {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.feed {
+  background-color: #fafafa;
+  border: 1px solid white;
+}
+
+.feed-area {
+  width: 400px;
+  margin-top: 30px;
+  border: 1px solid #dfdfdf;
+  padding-left: 0;
+}
+
+.main-first {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.main-first__profile {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.main-second {
+  width: 400px;
+  height: 400px;
+}
+.main-third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+.main-four {
+  margin-left: 10px;
+}
+.main-four__state {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-five {
+  position: absolute;
+}
+.main-five__input {
+  display: flex;
+}
